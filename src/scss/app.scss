@@ -1,0 +1,10 @@
+//npm run dev
+//npx gulp dev
+//la forma anterior de importar
+// @import 'base/variables';
+// @import 'contenido/contenido';
+
+//La nueva sintaxis
+//tiene que haber siempre un _index.scss
+@use 'base';
+@use 'layout';
